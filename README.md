@@ -1,0 +1,2 @@
+# Prediction-of-website-traffic-and-demand-for-Inventory-Optimization-
+This project enhances inventory management by combining website traffic and demand forecasting using SARIMA and SARIMAX models. It involves data collection, preprocessing, and model development. Applying these forecasts helps efficiently manage stock levels, improving accuracy and reducing costs by aligning inventory with predicted demand.
