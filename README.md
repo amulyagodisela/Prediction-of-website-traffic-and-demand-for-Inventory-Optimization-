@@ -15,10 +15,10 @@ The project involves collecting historical sales and website traffic data, then 
 ## Implementation
 1. Data Ingestion: Collect and import historical sales and website traffic data.
 2. Data Cleaning: Preprocess the data to handle missing values and outliers.
-3. Trend Analysis: Conduct EDA to identify trends, seasonal patterns, and correlations. Run ~~~ preprocessing.py ~~~
-4. Model Training: Develop and train SARIMA and SARIMAX models for accurate forecasting. Run ~~~ auto_arima for traffic module.py ~~~,~~~ auto_arima for Demand Module.py ~~~ to find the model parameters and then run ~~~ websitetraffic Module.py ~~~,~~~ demand module.py ~~~ for forecasting website traffic and predicting demand respectively.
-5. Inventory Management: Use forecasted demands to inform inventory optimization strategies. Run ~~~ inventory optimization.py ~~~.
-6. Performance Evaluation: Assess model performance using MAE and RMSE. Run ~~~ Evaluation.py ~~~.
+3. Trend Analysis: Conduct EDA to identify trends, seasonal patterns, and correlations. Run ``` preprocessing.py ```
+4. Model Training: Develop and train SARIMA and SARIMAX models for accurate forecasting. Run ``` auto_arima for traffic module.py ```,``` auto_arima for Demand Module.py ``` to find the model parameters and then run ``` websitetraffic Module.py ```,``` demand module.py ``` for forecasting website traffic and predicting demand respectively.
+5. Inventory Management: Use forecasted demands to inform inventory optimization strategies. Run ``` inventory optimization.py ```.
+6. Performance Evaluation: Assess model performance using MAE and RMSE. Run ``` Evaluation.py ```.
 
  ## Libraries Required
  Pandas, NumPy, Scikit-learn, Statsmodels, Matplotlib, Seaborn
